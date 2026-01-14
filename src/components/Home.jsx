@@ -24,7 +24,7 @@ const Home = () => {
       />
 
       {/* Center Content */}
-      <div className="z-10 max-w-4xl text-center flex flex-col items-center gap-6">
+      <div className="z-10 max-w-4xl text-center flex flex-col items-center gap-6 tracking-wider">
         {/* Tagline */}
         <p className="text-lg text-gray-500 tracking-wide">
           Igniting the Spark of Inspiration
@@ -40,25 +40,25 @@ const Home = () => {
           <br />
           {/* Magico + Design */}
           <span className="relative inline-block mr-3">
-            <span className="absolute inset-0 bg-yellow-300 -rotate-2 rounded-lg"></span>
+            <span className="absolute inset-0 bg-[#FFF293] rotate-2 rounded-lg"></span>
             <span className="relative px-4 text-purple-700">Mágico</span>
           </span>
           Design
         </h1>
 
         {/* CTA + Side Image */}
-        <div className="mt-8 flex items-center gap-4">
-          <button className="px-6 py-3 border border-[#F7793B] rounded-full hover:bg-gray-100 transition">
+        <div className="absolute bottom-8 left-20 flex items-center gap-1 -rotate-6">
+          <button className="px-6 py-4 border border-[#F7793B] rounded-full hover:bg-gray-100 transition">
             Create Magic
           </button>
 
           {/* Button Side Icon */}
-          <img src={asset6} alt="magic icon" className="w-10 cursor-pointer" />
+          <img src={asset6} alt="magic icon" className="w-16 cursor-pointer" />
         </div>
       </div>
 
       {/* Address Pills */}
-      <div className="absolute top-20 right-10 flex flex-col gap-2">
+      <div className="absolute top-20 right-10 flex flex-col gap-2 items-end">
         <span className="px-4 py-2 text-sm rounded-full bg-purple-600 text-white">
           Via della Creatività, 23
         </span>
@@ -71,13 +71,13 @@ const Home = () => {
       <img
         src={asset5}
         alt="zigzag"
-        className="absolute bottom-30 left-24 w-55 -rotate-12"
+        className="absolute bottom-50 left-24 w-55 -rotate-12"
       />
 
       <img
         src={asset4}
         alt="zigzag"
-        className="absolute bottom-12 right-60 w-120 rotate-8"
+        className="absolute bottom-12 right-150 w-130 rotate-8"
       />
     </section>
   );
