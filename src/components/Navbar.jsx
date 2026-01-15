@@ -1,5 +1,5 @@
 import React from "react";
-import asset0 from "../assets/asset0.png";
+import asset0 from "../assets/asset0.webp";
 import asset22 from "../assets/asset22.svg";
 
 const Navbar = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { X, Linkedin, Instagram } from "lucide-react";
-import asset17 from "../assets/asset17.png"; // sparkle / star
-import asset18 from "../assets/asset18.png"; // circular get started badge
+import asset17 from "../assets/asset17.webp";
+import asset18 from "../assets/asset18.webp";
 
 const Footer = () => {
   return (
@@ -24,9 +24,11 @@ const Footer = () => {
           Embark on a Transformative Journey <br />
           Shaping{" "}
           <span className="relative inline-block">
-            <span className="absolute inset-0 bg-yellow-300 rounded-full -z-10"></span>
-            <span className="relative px-4 py-2 rounded-2xl rotate-x-20  bg-[#FFC204] text-white">
-              Your Brand's Destiny
+            {/* HIGHLIGHT */}
+            <span className="absolute inset-0 bg-[#FFC204] rotate-2 rounded-2xl z-0"></span>
+            {/* TEXT */}
+            <span className="relative z-10 px-2 py-6 text-white">
+              Your Brand&apos;s Destiny
             </span>
           </span>{" "}
           Through Our <br />

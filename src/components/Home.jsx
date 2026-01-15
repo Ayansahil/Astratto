@@ -1,10 +1,10 @@
 import React from "react";
-import asset1 from "../assets/asset1.png";
-import asset2 from "../assets/asset2.png";
-import asset3 from "../assets/asset3.png";
-import asset4 from "../assets/asset4.png";
-import asset5 from "../assets/asset5.png";
-import asset6 from "../assets/asset6.png";
+import asset1 from "../assets/asset1.webp";
+import asset2 from "../assets/asset2.webp";
+import asset3 from "../assets/asset3.webp";
+import asset4 from "../assets/asset4.webp";
+import asset5 from "../assets/asset5.webp";
+import asset6 from "../assets/asset6.webp";
 
 const Home = () => {
   return (

@@ -1,7 +1,7 @@
-import asset13 from "../assets/asset13.png";
-import asset14 from "../assets/asset14.png";
-import asset15 from "../assets/asset15.png";
-import asset16 from "../assets/asset16.png";
+import asset13 from "../assets/asset13.webp";
+import asset14 from "../assets/asset14.webp";
+import asset15 from "../assets/asset15.webp";
+import asset16 from "../assets/asset16.webp";
 import asset23 from "../assets/asset23.svg";
 
 const Projects = () => {
